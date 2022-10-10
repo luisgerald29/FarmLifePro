@@ -1,0 +1,401 @@
+
+DELL@DESKTOP-E5FQQ48 MINGW64 ~
+$ ls
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{48965cc6-5552-11ec-83f2-60dd8e05cbe2}.TxR.0.regtrans-ms
+ NTUSER.DAT{48965cc6-5552-11ec-83f2-60dd8e05cbe2}.TxR.1.regtrans-ms
+ NTUSER.DAT{48965cc6-5552-11ec-83f2-60dd8e05cbe2}.TxR.2.regtrans-ms
+ NTUSER.DAT{48965cc6-5552-11ec-83f2-60dd8e05cbe2}.TxR.blf
+ NTUSER.DAT{48965cc7-5552-11ec-83f2-60dd8e05cbe2}.TM.blf
+ NTUSER.DAT{48965cc7-5552-11ec-83f2-60dd8e05cbe2}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{48965cc7-5552-11ec-83f2-60dd8e05cbe2}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ Postman/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+'VirtualBox VMs'/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+DELL@DESKTOP-E5FQQ48 MINGW64 ~
+$ cd d
+bash: cd: d: No such file or directory
+
+DELL@DESKTOP-E5FQQ48 MINGW64 ~
+$ cd d;
+bash: cd: d: No such file or directory
+
+DELL@DESKTOP-E5FQQ48 MINGW64 ~
+$ cd d:
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d
+$ ls
+'$MfeDeepRem'/    FarmLifePro_Alix/             quiz/
+'$RECYCLE.BIN'/  'System Volume Information'/
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d
+$ cd ^C
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d
+$ cd FarmLifePro_Alix
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix
+$ mkdir code
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix
+$ git init
+Initialized empty Git repository in D:/FarmLifePro_Alix/.git/
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ cd gitProjects
+bash: cd: gitProjects: No such file or directory
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git clone https://github.com/luisgerald29/FarmLifePro.git
+Cloning into 'FarmLifePro'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git init
+Reinitialized existing Git repository in D:/FarmLifePro_Alix/.git/
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ cd FarmLifePro
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ mkir code
+bash: mkir: command not found
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ cd d:
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d
+$ cd FarmLifePro_Alix
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ mkdir code
+mkdir: cannot create directory ‘code’: File exists
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git init
+Reinitialized existing Git repository in D:/FarmLifePro_Alix/.git/
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git clone https://github.com/luisgerald29/FarmLifePro.git
+fatal: destination path 'FarmLifePro' already exists and is not an empty directory.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        FarmLifePro/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git add "FarmLifePro/"
+warning: adding embedded git repository: FarmLifePro
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> FarmLifePro
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached FarmLifePro
+hint:
+hint: See "git help submodule" for more information.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FarmLifePro
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FarmLifePro
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   FarmLifePro (untracked content)
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FarmLifePro
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   FarmLifePro (untracked content)
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git --commit -m "Pre"
+unknown option: --commit
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git commit -m "Pre"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'DELL@DESKTOP-E5FQQ48.(none)')
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git config --global user.email "alixaironekheji@gmail.com"
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git config --global user.name "Air1Kheji"
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git add --all
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git commit -m "All files"
+[master (root-commit) ab06a5d] All files
+ 1 file changed, 1 insertion(+)
+ create mode 160000 FarmLifePro
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git push <Pre>
+bash: syntax error near unexpected token `newline'
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ git push <name>
+bash: syntax error near unexpected token `newline'
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ ls
+FarmLifePro/  code/
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix (master)
+$ cd FarmLifePro
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Pre.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git add --all
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git push
+To https://github.com/luisgerald29/FarmLifePro.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/luisgerald29/FarmLifePro.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git clone https://github.com/luisgerald29/FarmLifePro.git
+Cloning into 'FarmLifePro'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Pre.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        FarmLifePro/
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git add --all
+warning: adding embedded git repository: FarmLifePro
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> FarmLifePro
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached FarmLifePro
+hint:
+hint: See "git help submodule" for more information.
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   FarmLifePro
+        new file:   Pre.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   FarmLifePro (untracked content)
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro (main)
+$ cd FarmLifePro
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro/FarmLifePro (main)
+$ git add --all
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro/FarmLifePro (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Hi.txt
+
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro/FarmLifePro (main)
+$ git commit -m "All files"
+[main 3f8afa0] All files
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hi.txt
+
+DELL@DESKTOP-E5FQQ48 MINGW64 /d/FarmLifePro_Alix/FarmLifePro/FarmLifePro (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/luisgerald29/FarmLifePro.git
+   002b35e..3f8afa0  main -> main
